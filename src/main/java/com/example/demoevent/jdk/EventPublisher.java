@@ -12,9 +12,7 @@ import java.util.Observable;
 @AllArgsConstructor
 public class EventPublisher {
 
-
     private MyEventMulticaster myEventMulticaster;
-
 
     public void callback()
     {

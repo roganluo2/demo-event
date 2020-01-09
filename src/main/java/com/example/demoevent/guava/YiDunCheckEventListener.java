@@ -13,7 +13,7 @@ import java.util.Observer;
 public class YiDunCheckEventListener implements EventListener {
 
     @Subscribe
-    public void update(StatusChangeEvent event) {
+    public void subscribe(StatusChangeEvent event) {
         if(event.getStatus() == 4)
         {
             System.out.printf("阿里智能审核已经完成，开始对视频[ID:%d]开启易盾审核", event.getId());
